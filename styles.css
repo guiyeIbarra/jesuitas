@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+/* Elimina la barra de desplazamiento lateral */ 
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-image: url(./assets/helecho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(224, 214, 214);
+}
+
+header {
+    padding: 30px;
+    height: 250px;
+}
+
+h1 {
+    margin-left: 10%;
+    font-family: "Pirata One";
+    font-size: 70px;
+    -webkit-text-stroke-color: rgb(178, 25, 25);
+    -webkit-text-stroke-width: 1px;
+    color: rgb(203, 215, 228);
+    padding: 30px;
+}
+
+nav {
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: transparent;
+    border-radius: 19px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(120, 120, 239);
+}
+
+nav div {
+    background-color: transparent;
+}
+
+div img {
+    width: auto;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    
+    border-radius: 9px;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+
+}
+
+div {
+    background-color: transparent;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 19px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+section {
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.historia {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: brown;
+    color: aliceblue;
+}
+
+address {
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    h1 {
+        font-size: 75px;
+        text-align: center;
+    }
+    section {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+    }
+}
