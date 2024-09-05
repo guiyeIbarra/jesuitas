@@ -111,22 +111,19 @@ address {
 @media (min-width: 481px) and (max-width: 1100px) {
     
     h1 { 
-        font-size: 35px;
-        margin-left: 2%;
-        display: flex;
-        text-align: center;
-        justify-content: center;
+        font-size: 30px;
+       
         
     }
     nav{
         font-size: 20px;
-        display: flex;
+        display: grid;
         align-items: center;
         justify-content: space-around;
         
     }
     section.a {
-        margin-top: 15%;
+        margin-top: 10%;
         display: grid;
         align-items: center;
         justify-content: center;
@@ -163,20 +160,18 @@ address {
 @media (max-width: 450px) {
     
     h1 { 
-        font-size: 35px;
-        display: flex;
-        text-align: center;
-        justify-content: center; 
-        margin-left: 2%; 
+        font-size: 25px;
+        
+
     }
     nav{
-        font-size: 23px;
+        font-size: 20px;
         display: grid;
         align-items: center;
         justify-content: space-around;
     }
     section.a {
-        margin-top: 35%;
+        margin-top: 10%;
         display: grid;
         align-items: center;
         justify-content: center;
@@ -206,8 +201,8 @@ address {
         margin-left: -25px;
     }
     h3 {
-        font-size: 22px;
-        color: rgb(249, 119, 119);
+        font-size: 20px;
+        color: rgb(202, 66, 66);
     }
     h3:hover{
         color: rgb(255, 255, 255);
