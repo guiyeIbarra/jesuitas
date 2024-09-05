@@ -119,10 +119,11 @@ address {
         
     }
     nav{
-        font-size: 23px;
-        display: grid;
+        font-size: 20px;
+        display: flex;
         align-items: center;
         justify-content: space-around;
+        
     }
     section.a {
         margin-top: 15%;
@@ -134,13 +135,16 @@ address {
         margin-top: -50px;
         display: grid;
         align-items: center;
-        justify-content: center;
-        
+        justify-content: center; 
     }
     .historia {
         margin-top: 200px;
         display: grid;
         justify-content: center;
+    }
+    .guaranies {
+        width: 300%;
+        margin-left: -170px;
     }
     h3 {
         font-size: 22px;
@@ -156,13 +160,14 @@ address {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
     
     h1 { 
         font-size: 35px;
         display: flex;
         text-align: center;
-        justify-content: center;  
+        justify-content: center; 
+        margin-left: 2%; 
     }
     nav{
         font-size: 23px;
@@ -187,6 +192,18 @@ address {
         display: grid;
         align-items: center;
         justify-content: center;
+    }
+    .guaranies {
+        width: 250%;
+        margin-left: -99px;
+    }
+    .historia2 {
+        margin-top: -80px;
+    }
+    .jesuitas {
+    
+        width: 120%;
+        margin-left: -25px;
     }
     h3 {
         font-size: 22px;
