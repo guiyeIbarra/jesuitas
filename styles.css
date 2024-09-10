@@ -10,7 +10,7 @@
  
 
 body {
-    background-image: url(./assets/helecho.jpg);
+    background-image: url(./assets/helecho_small.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(224, 214, 214);
@@ -19,7 +19,7 @@ body {
 h1 {
     text-align: center;
     font-family: "Pirata One";
-    font-size: 20px;
+    font-size: 25px;
     -webkit-text-stroke-color: rgb(178, 25, 25);
     -webkit-text-stroke-width: 1px;
     color: rgb(203, 215, 228);
@@ -28,7 +28,7 @@ h1 {
 
 nav {
     color: white;
-    font-size: 17px;
+    font-size: 22px;
     display: grid;
     justify-content: center;
     align-items: center; 
@@ -57,14 +57,15 @@ div img {
 }
 
 img {
-    width: 200px;
+    width: 220px;
     height: 200px;
     border-radius: 9px;
     margin: 0px;
+    margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 25px;
     color: brown;
     -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 1px;
@@ -78,7 +79,7 @@ div {
     background-color: transparent;
     width: auto;
     text-align: center;
-    padding: 20px;
+    padding: 30px;
     border-radius: 19px;
     margin-left: 50px;
     margin-right: 50px;
@@ -100,15 +101,14 @@ section.b {
      margin-top: -55px;
 }
 
-.historia {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 100px;
+p {
+    font-size: 21px;
 }
 
 footer {
     background-color: brown;
     color: aliceblue;
+    width: auto;
 }
 
 address {
