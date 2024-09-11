@@ -16,13 +16,17 @@ body {
     color: rgb(224, 214, 214);
 }
 
+header {
+    background-color: brown;
+    
+}
+
 h1 {
     text-align: center;
     font-family: "Pirata One";
-    font-size: 25px;
-    -webkit-text-stroke-color: rgb(178, 25, 25);
-    -webkit-text-stroke-width: 1px;
-    color: rgb(203, 215, 228);
+    font-size: 35px;
+   
+    color: white;
     padding: 30px;
 }
 
@@ -58,17 +62,16 @@ div img {
 
 img {
     width: 220px;
-    height: 200px;
-    border-radius: 9px;
-    margin: 0px;
+    height: 220px;
+    border-radius: 5px;
+   
     margin-bottom: 20px;
 }
 
 h3 {
     font-size: 25px;
-    color: brown;
-    -webkit-text-stroke-color: white;
-    -webkit-text-stroke-width: 1px;
+    color: white;
+    
 }
 
 p {
@@ -79,10 +82,7 @@ div {
     background-color: transparent;
     width: auto;
     text-align: center;
-    padding: 30px;
-    border-radius: 19px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 40px;
 }
 
 section {
